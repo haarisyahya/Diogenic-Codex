@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="" manifest="" root="" work="">
+    <createjar file="model.jar" flags="8"/>
+    <source>
+      <file active="true" name="TreeNode.java" package="model" timestamp="11-Jun-2021 19:57:44">
+        <select from="1003" to="1003"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="FrequencyTable.java" package="model" timestamp="11-Jun-2021 19:57:42">
+        <select from="1003" to="1003"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="PriorityQueue.java" package="model" timestamp="13-Jun-2021 22:17:33">
+        <select from="1003" to="1003"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="DiogenicCodexTree.java" package="model" timestamp="13-Jun-2021 22:21:01">
+        <select from="1003" to="1003"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

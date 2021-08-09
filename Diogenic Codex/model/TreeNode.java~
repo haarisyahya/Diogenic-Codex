@@ -1,0 +1,55 @@
+package model;
+
+public class TreeNode implements Comparable<TreeNode> {
+ 
+ // the character and the frequency
+ private int frequency;
+ private char character;
+ 
+ // the left and the right children
+ private TreeNode left;
+ private TreeNode right;
+ 
+ public TreeNode(char character, int frequency) {
+  this.character = character;
+  this.frequency = frequency;
+  
+  left = null;
+  right = null;
+ }
+
+ public TreeNode getLeft() {
+  return left;
+ }
+
+ public void setLeft(TreeNode left) {
+  this.left = left;
+ }
+
+ public TreeNode getRight() {
+  return right;
+ }
+
+ public void setRight(TreeNode right) {
+  this.right = right;
+ }
+
+ public int getFrequency() {
+  return frequency;
+ }
+
+ public char getCharacter() {
+  return character;
+ }
+ 
+ public boolean isLeafNode() {
+  return left == null && right == null;
+ }
+
+ @Override
+ public int compareTo(TreeNode o) {
+  if( this.frequency == o.frequency )
+   return this.character - o.character;
+  return this.frequency - o.frequency;
+ }
+}
